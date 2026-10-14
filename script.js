@@ -7,7 +7,7 @@
    - img:      enlace DIRECTO a la imagen (p. ej. https://i.imgur.com/abc123.png).
                Si lo dejas vacío, el marco queda vacío con un "?".
    - name:     nombre (si lo dejas vacío, el expediente dice "Sin identificar")
-   - alias, age, bond (vínculo con Anshara), status (estado), place (última ubicación)
+   - alias, age, bond (vínculo con Anshara), status (estado), place (nacimiento)
    - notes:    lista de párrafos para "Notas del agente"
    - hand:     nota a mano (en rojo) al final del expediente
    Los campos que dejes vacíos se muestran como una línea en blanco.
@@ -20,17 +20,29 @@ const BOARD = {
 
 const PEOPLE = [
   { // 1
-    img: "",
-    name: "Noir", alias: "", age: "",
+    img: "https://imgur.com/mAQe8jR.jpg",
+    name: "Noir", alias: "", age: "42",
     bond: "Agente instructor", status: "Fallecido", place: "Birka",
     notes: [
       "Agente de la organización estacionado en Birka. Entrenó a Anshara durante varios años, hasta que completó su formación a los 16 años.",
-      "Autor del perfil psicológico y de los antecedentes de su ficha.",
+      "Co-autor de la ficha de Anshara.",
       "No sobrevivió a la destrucción de Birka."
     ],
     hand: ""
   },
-  { img: "", name: "", alias: "", age: "", bond: "", status: "", place: "", notes: [], hand: "" }, // 2
+  { // 2
+    img: "hhttps://imgur.com/w749Ftu.png",
+    name: "Vittoria de Medici",
+    alias: "",
+    age: "20",
+    bond: "Capitana",
+    status: "Vivo",
+    place: "Dressrosa",
+    notes: [
+      "Confía en ella."
+    ],
+    hand: "Pagó la cena y no volvió a mencionarlo."
+  },
   { img: "", name: "", alias: "", age: "", bond: "", status: "", place: "", notes: [], hand: "" }, // 3
   { img: "", name: "", alias: "", age: "", bond: "", status: "", place: "", notes: [], hand: "" }, // 4
   { img: "", name: "", alias: "", age: "", bond: "", status: "", place: "", notes: [], hand: "" }, // 5
