@@ -76,6 +76,14 @@ const LINKS = [
   [1, 6], [5, 9]
 ];
 
+/* Color del sello según el estado (se compara sin importar mayúsculas ni tildes).
+   Puedes añadir más líneas, por ejemplo:  desaparecido: "#b7791f"
+   Los estados que no aparezcan aquí se ven en rojo. */
+const STATUS_COLORS = {
+  vivo: "#2f7d3b",
+  viva: "#2f7d3b"
+};
+
 /* =====================================================================
    COLOCACIÓN EN EL TABLÓN (ajustes avanzados)
    x, y = posición de la esquina superior izquierda en % del tablón
