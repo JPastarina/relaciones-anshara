@@ -66,7 +66,7 @@ button{font:inherit;color:inherit;cursor:pointer}
   box-shadow:0 6px 12px rgba(0,0,0,.45);
 }
 .title::after{
-  content:"";position:absolute;left:15%;right:15%;bottom:.4em;height:2px;
+  content:"";position:absolute;left:20%;right:20%;bottom:.4em;height:2px;
   background:var(--red);opacity:.75;
 }
 .title h1{
