@@ -15,7 +15,7 @@
 
 const BOARD = {
   title: "RELACIONES",
-  subtitle: "Anshara Ziusudra · Jikogisei Kaizokudan"
+  subtitle: "Anshara · Jikogisei Kaizokudan"
 };
 
 const PEOPLE = [
@@ -225,7 +225,7 @@ function renderDossier(i) {
     </figure>
     <dl class="fields">${rows}</dl>
     <section class="notes">
-      <h3>Notas del agente</h3>
+      <h3>Notas</h3>
       ${notes}
       ${p.hand ? `<p class="hand">${esc(p.hand)}</p>` : ""}
     </section>`;
