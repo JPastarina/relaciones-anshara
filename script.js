@@ -39,9 +39,10 @@ const PEOPLE = [
     status: "Vivo",
     place: "Dressrosa",
     notes: [
-      "Confía en ella."
+      "Descubrió pronto lo mucho que le gusta el dinero a Anshara.",
+      "Suele estar seria y taparse la zona de la boca."
     ],
-    hand: "Pagó la cena y no volvió a mencionarlo."
+    hand: "¡Me hizo tesorera de la banda!"
   },
   { img: "", name: "", alias: "", age: "", bond: "", status: "", place: "", notes: [], hand: "" }, // 3
   { img: "", name: "", alias: "", age: "", bond: "", status: "", place: "", notes: [], hand: "" }, // 4
@@ -193,8 +194,8 @@ function renderDossier(i) {
   const p = PEOPLE[i];
   const status = (p.status || "").trim();
   const rows = [
-    ["Nombre", p.name], ["Alias", p.alias], ["Edad", p.age],
-    ["Vínculo", p.bond], ["Estado", p.status], ["Última ubicación", p.place]
+    ["Nombre", p.name], ["Epíteto", p.alias], ["Edad", p.age],
+    ["Vínculo", p.bond], ["Estado", p.status], ["Nacimiento", p.place]
   ].map(([k, v]) => `<dt>${k}</dt><dd class="${v ? "" : "none"}">${v ? esc(v) : "—"}</dd>`).join("");
 
   const notes = (p.notes && p.notes.length)
