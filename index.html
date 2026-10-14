@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Relaciones · Anshara Ziusudra</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<main class="wood" id="wood">
+  <div class="board" id="board" aria-label="Tablón de relaciones de Anshara">
+    <header class="title">
+      <span class="pin" aria-hidden="true"></span>
+      <h1 id="boardTitle"></h1>
+      <p id="boardSub"></p>
+    </header>
+    <svg class="strings" id="strings" aria-hidden="true"></svg>
+    <div id="frames"></div>
+    <div id="pins" aria-hidden="true"></div>
+  </div>
+</main>
+<p class="hint">Pulsa una fotografía para abrir su expediente</p>
+
+<div class="scrim" id="scrim"></div>
+
+<aside class="dossier" id="dossier" role="dialog" aria-modal="true" aria-labelledby="dTitle" aria-hidden="true" inert>
+  <div class="d-top">
+    <span>Jikogisei Kaizokudan · Ficha #2</span>
+    <button type="button" class="d-close" id="dClose" aria-label="Cerrar expediente">✕</button>
+  </div>
+  <div class="d-body" id="dBody"></div>
+  <nav class="d-nav" aria-label="Navegar entre expedientes">
+    <button type="button" id="dPrev">← Anterior</button>
+    <span id="dCount" aria-live="polite"></span>
+    <button type="button" id="dNext">Siguiente →</button>
+  </nav>
+</aside>
+
+<script src="script.js"></script>
+</body>
+</html>
