@@ -36,7 +36,7 @@ const PEOPLE = [
     alias: "",
     age: "20",
     bond: "Capitana",
-    status: "Vivo",
+    status: "Viva",
     place: "Dressrosa",
     notes: [
       "Descubrió pronto lo mucho que le gusta el dinero a Anshara.",
@@ -44,7 +44,20 @@ const PEOPLE = [
     ],
     hand: "¡Me hizo tesorera de la banda!"
   },
-  { img: "", name: "", alias: "", age: "", bond: "", status: "", place: "", notes: [], hand: "" }, // 3
+  { // 3
+    img: "https://imgur.com/Gjy0Msq.jpg",
+    name: "Subaraki Rigel",
+    alias: "",
+    age: "30",
+    bond: "Compañero",
+    status: "Vivo",
+    place: "Desconocido",
+    notes: [
+      "Al principio pensaba que era un idiota por sus bromas constantes.",
+      "Es perezoso, se la pasa mirando el cielo. ¿Habrá algo?"
+    ],
+    hand: "No hacer bromas de tu madre"
+  },
   { img: "", name: "", alias: "", age: "", bond: "", status: "", place: "", notes: [], hand: "" }, // 4
   { img: "", name: "", alias: "", age: "", bond: "", status: "", place: "", notes: [], hand: "" }, // 5
   { img: "", name: "", alias: "", age: "", bond: "", status: "", place: "", notes: [], hand: "" }, // 6
