@@ -31,7 +31,7 @@ const PEOPLE = [
     hand: ""
   },
   { // 2
-    img: "hhttps://imgur.com/w749Ftu.png",
+    img: "https://imgur.com/w749Ftu.jpg",
     name: "Vittoria de Medici",
     alias: "",
     age: "20",
